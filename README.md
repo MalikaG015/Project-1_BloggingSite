@@ -1,4 +1,4 @@
-# titaniumaplus
+# radium
 
 ## Blogging Site Mini Project Requirement
 
