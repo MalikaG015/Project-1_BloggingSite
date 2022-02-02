@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb+srv://users-open-to-all:hiPassword123@cluster0.uh35t.mongodb.net/malika-database(Project-1)?retryWrites=true&w=majority", {useNewUrlParser: true, useFindAndModify: false,useUnifiedTopology:true,useCreateIndex:true})
+mongoose.connect("mongodb+srv://users-open-to-all:hiPassword123@cluster0.uh35t.mongodb.net/malika-database(Project-1)?retryWrites=true&w=majority", {useNewUrlParser: true,useUnifiedTopology:true})
     .then(() => console.log('mongodb running on 27017'))
     .catch(err => console.log(err))
 
